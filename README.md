@@ -89,7 +89,7 @@ Once version numbers can be printed back, the dependencies are set up correctly!
 
 This section is dedicated to those who would like to modify, improve, and/or extend this code. It hopes to provide a baseline for testing expected results using manually produced test images that contain uniform or predictable particle sizes.
 
-**[Descriptions of Individual Test Images can be found here](https://bitbucket.org/instrumentworks/fsi-python/wiki/3.%20Testing%20Sets%20Image%20Descriptions)**
+**[Descriptions of Individual Test Images can be found here](https://github.com/mysticalflyte/fsi_python_image_analysis/wiki/4.-Testing-Sets-Image-Descriptions)**
 
 ** NOTE: All tests from Test Sets 1-3 should pass in theory, but one currently fails due to the current program being unable to process vertical 1-pixel-width particles because they are considered too thin during Sobel filtering. In the grand scheme of things, we hope that a large particle count as well as different particle orientations will make up for this elimination.
 None of Set 4 passes currently within the designated 5% error - ideally we must create more test images with the particle sets in SolidWorks so that the results average out. Otherwise, we should try to figure out a better way to estimate particle height besides by averaging 2D dimensions with each other. **
